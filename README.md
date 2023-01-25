@@ -8,6 +8,8 @@ Date:  2023-01-24
 
 Re:    Python Data Analysis Project # 3
 
+---
+
 **Problem Statement**
 
 This report investigates modifiable environmental factors that may contribute to life expectancy in the hopes of finding a mathematical model. The primary questions we answer are:
@@ -23,6 +25,12 @@ This report investigates modifiable environmental factors that may contribute to
 4. Recursive Feature Elimination: 
 5. Modeling: A linear regression model was examined.
 
+**Introduction**
+
+In 2006, The World Health Organization published a report entitled `Preventing disease through healthy environments`.
+>[It] “confirms that approximately one-quarter of the global disease burden, and more than one-third of the burden among children, is due to modifiable environmental factors.” 
+>
+>[WHO-Preventing Disease Through Healthy Environments](https://www.who.int/publications/i/item/9241593822)
 
 Information from the World Health Organization and United Nations was gathered for the years 2000-2015 for 183 countries in three categories: 
 
@@ -34,6 +42,7 @@ Information from the World Health Organization and United Nations was gathered f
 
 
 **File Structure**
+```
 .
 ├── data
 │   ├── processed
@@ -61,5 +70,5 @@ Information from the World Health Organization and United Nations was gathered f
 │   ├── config_default.yaml
 │   └── Life Expecteancy: IDA_EDA Report Using Pandas Profiling.html
 └── requirements.txt
-
+```
 7 directories, 20 files
