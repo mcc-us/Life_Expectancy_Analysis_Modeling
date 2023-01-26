@@ -60,10 +60,12 @@ Information from the World Health Organization and United Nations was gathered f
 │   ├── 1_MAIN_Life_Expectancy_WHO_UN_Analysis_Modeling_MAIN.ipynb
 │   ├── 2_Life_Expectancy_Initial_Data_Analysis.ipynb
 │   ├── 3_Life_Expectancy_EDA.ipynb
-│   ├── 4_Life_Expectancy_Feature_Engineering.ipynb
-│   ├── 5_Life_Expectancy_Recursive_Feature_Elimination.ipynb
-│   ├── 6_Life_Expectancy_Modeling.ipynb
-│   └── 6_Modeling.ipynb
+│   ├── 4_Life_Expectancy_Exploratory_Data_Analysis_PART2
+│   ├── 5_Life_Expectancy_Feature_Engineering.ipynb
+│   ├── 6_Life_Expectancy_Recursive_Feature_Elimination.ipynb
+│   ├── 7_Life_Expectancy_Modeling.ipynb
+│   ├── 7_Modeling_NOTES.ipynb
+│   └── 7_Modeling.ipynb
 ├── README.md
 ├── references
 ├── reports
