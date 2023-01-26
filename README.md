@@ -17,13 +17,13 @@ This report investigates modifiable environmental factors that may contribute to
 1. *Which variables are significant and important in modeling and predicting Life Expectancy?*
 2. *What steps should be taken given limited resources?*
 
-**Data Analysis has 5 sections**
+**Data Analysis Overview**
 
-1. Initial Data Analysis: which deals with the 'cleaning' the data using imputation by mean.
-2. Exploratory Data Analysis: An examination of the variables, histograms, percentile information, and other graphics that explore and explain the input and output.
-3. Feature Engineering: Categorization of the 193 countries was discretized into eight groups.
-4. Recursive Feature Elimination: 
-5. Modeling: A linear regression model was examined.
+1. Initial Data Analysis
+2. Exploratory Data Analysis
+3. Feature Engineering
+4. Recursive Feature Elimination
+5. Modeling
 
 **Introduction**
 

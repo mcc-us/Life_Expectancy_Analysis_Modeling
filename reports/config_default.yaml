@@ -1,5 +1,5 @@
 # Title of the document
-title: "Pandas Profiling Report"
+title: "Life Expectancy Pandas-Profiling Report"
 
 # Metadata
 dataset:
@@ -118,7 +118,7 @@ correlations:
 # Bivariate / Pairwise relations
 interactions:
   targets: []
-  continuous: false
+  continuous: true
 
 # For categorical
 categorical_maximum_correlation_distinct: 100
