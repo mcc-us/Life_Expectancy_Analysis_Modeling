@@ -1,44 +1,39 @@
 Title: Life_Expectancy_WHO_UN_Analysis_Modeling
 
-To:    Magnimind
+To:    [Magnimind](https://magnimindacademy.com/)
 
 From:  Matt Curcio
 
-Date:  2023-01-24
+Date:  2023-01-29
 
-Re:    Python Data Analysis Project # 3
+Re:    Python Data Analysis & Modeling Project # 3
 
 ---
 
 **Problem Statement**
 
-This report investigates modifiable environmental factors that may contribute to life expectancy in the hopes of finding a mathematical model. The primary questions we answer are:
+This analysis investigates modifiable environmental factors that may correlate with life expectancy in the hopes of finding a mathematical model. The primary questions we answer are:
 
 1. *Which variables are significant and important in modeling and predicting Life Expectancy?*
-2. *What model best describes the relationship?*
 
-**Data Analysis Overview**
 
-1. Initial Data Analysis
-2. Exploratory Data Analysis
-3. Feature Engineering
-4. Recursive Feature Elimination
-5. Modeling
+2. *What model best describes the relationship(s)?*
 
-**Introduction**
 
-In 2006, The World Health Organization published a report entitled `Preventing disease through healthy environments`.
->[It] “confirms that approximately one-quarter of the global disease burden, and more than one-third of the burden among children, is due to modifiable environmental factors.” 
->
->[WHO-Preventing Disease Through Healthy Environments](https://www.who.int/publications/i/item/9241593822)
+**Synopsis of Results**
 
-Information from the World Health Organization and United Nations was gathered for the years 2000-2015 for 183 countries in three categories: 
+Seven predictors have the most importance in this model. 
 
-1. *Communicable diseases*: Hepatitis B, Measles, Polio, Diphtheria, HIV/AIDS.
+They include: ['Income', 'Education', 'HIV', 'DTP', 'Polio', 'lt5yD', 'AdultMort']
 
-2. *Country-specific monetary data*: Gross domestic product, Governmental expenditure rates, Average personal income, Developmental status, Population, Education.
+Four algorythms were tested accuracy alone was used as a benchmark:
 
-3. *Health-related information*: Infant and adult mortality rates, Number of deaths less than 5 yr, Alcohol consumption rates, Child-related malnutrition, including child thinness rates between 1-19 years and 5-9 years, Average body mass index per capita.
+| Model | Average % Accuracy (cv=5) |
+|:------|--------------------------:|
+| Gradient Boosting Regressor | 94.7 |
+| Decision Tree Regressor     | 88.5 |
+| Linear Regression         | 81.0 |
+| Support Vector Regressor  | 19.0 |
 
 
 **File Structure**
