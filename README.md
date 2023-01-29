@@ -90,4 +90,3 @@ Four algorythms were tested accuracy alone was used as a benchmark:
 
 6 directories, 42 files
 ```
-7 directories, 20 files

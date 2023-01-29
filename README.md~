@@ -39,33 +39,55 @@ Four algorythms were tested accuracy alone was used as a benchmark:
 **File Structure**
 ```
 .
+├── categorize_plots
+│   ├── clean_data_1.csv
+│   ├── Life_Expectancy_Data.csv
+│   ├── Life_Expectancy_Educagtion_BMI.svg
+│   ├── Life_Expectancy_vs_8_Regions.svg
+│   ├── regional_data_2-2023-01-18 13:18:55.451573.csv
+│   ├── regional_data_2.csv
+│   ├── Some_Graphics-Copy1.ipynb
+│   └── Some_Graphics.ipynb
 ├── data
 │   ├── processed
 │   │   ├── Clean_LE_Data_FEng_4.csv
 │   │   ├── Clean_LE_Data_Post_EDA_3.csv
 │   │   ├── Clean_LE_Data_w_Means_2.csv
+│   │   ├── Life_Expectancy_Data.csv
 │   │   ├── x_test.csv
 │   │   ├── x_train.csv
 │   │   ├── y_test.csv
 │   │   └── y_train.csv
 │   └── raw
 │       └── Life_Expectancy_Data.csv
-├── docs
 ├── notebooks
 │   ├── 1_MAIN_Life_Expectancy_WHO_UN_Analysis_Modeling_MAIN.ipynb
 │   ├── 2_Life_Expectancy_Initial_Data_Analysis.ipynb
 │   ├── 3_Life_Expectancy_EDA.ipynb
-│   ├── 4_Life_Expectancy_Exploratory_Data_Analysis_PART2
+│   ├── 4_Life_Expectancy_Exploratory_Data_Analysis_PART2.ipynb
 │   ├── 5_Life_Expectancy_Feature_Engineering.ipynb
 │   ├── 6_Life_Expectancy_Recursive_Feature_Elimination.ipynb
 │   ├── 7_Life_Expectancy_Modeling.ipynb
-│   ├── 7_Modeling_NOTES.ipynb
-│   └── 7_Modeling.ipynb
+│   ├── 8-Life_Expectancy_Linear_Coefficients.ipynb
+│   ├── 9-Life_Expectancy_Groupings.ipynb
+│   ├── Clean_LE_Data_FEng_4.csv
+│   ├── Clean_LE_Data_Post_EDA_3.csv
+│   ├── Clean_LE_Data_w_Means_2.csv
+│   ├── Life_Expectancy_Data.csv
+│   ├── x_test.csv
+│   ├── x_train.csv
+│   ├── y_test.csv
+│   └── y_train.csv
 ├── README.md
-├── references
 ├── reports
-│   ├── config_default.yaml
-│   └── Life Expecteancy: IDA_EDA Report Using Pandas Profiling.html
-└── requirements.txt
+│   ├── default_ON.yaml
+│   ├── Life_Expectancy_Data.csv
+│   ├── mcc_config.yaml
+│   ├── Test Pandas Profiling Report: All Features.html
+│   └── Test_Pandas_Profiling_Report.ipynb
+├── requirements.txt
+
+
+6 directories, 42 files
 ```
 7 directories, 20 files
