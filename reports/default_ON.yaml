@@ -1,17 +1,17 @@
 # Title of the document
-title: "Test Pandas Profiling Report: All Features"
+title: "Life Expectancy, Pandas Profiling Report: All Features"
 
 # Metadata
 dataset:
-  description: "Describe Data"
+  description: "The life expectancy data-set contains health factors for 193 countries for the years 2000-2015 has been collected from a WHO data repository website and its corresponding economic data was collected from United Nation website. The dataset consists of 22 Columns and 2938 rows which meant 20 predicting variables"
   creator: "Socrates"
   author: "Plato"
   copyright_holder: "Euclid"
   copyright_year: "Pythagorus"
-  url: ""
+  url: "https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who"
 
 variables:
-  descriptions: {}
+  descriptions: []
 
 # infer dtypes
 infer_dtypes: true
@@ -136,7 +136,7 @@ plot:
 
     correlation:
         cmap: 'RdBu'
-        bad: '#000000'
+        bad: '#ff0000'
 
     missing:
         cmap: 'RdBu'
@@ -214,5 +214,5 @@ html:
       - "#e41a1c"
       - "#4daf4a"
 
-    full_width: false
+    full_width: true
 
