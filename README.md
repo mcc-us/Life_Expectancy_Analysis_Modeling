@@ -85,7 +85,7 @@ Four algorythms were tested accuracy alone was used as a benchmark:
 │   ├── mcc_config.yaml
 │   ├── Test Pandas Profiling Report: All Features.html
 │   └── Test_Pandas_Profiling_Report.ipynb
-├── requirements.txt
+└── requirements.txt
 
 
 6 directories, 42 files

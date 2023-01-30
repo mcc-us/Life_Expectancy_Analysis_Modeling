@@ -169,7 +169,7 @@ memory_deep: false
 
 # Configuration related to the duplicates
 duplicates:
-    head: 3
+    head: 0
     key: "# duplicates"
 
 # Configuration related to the samples area
