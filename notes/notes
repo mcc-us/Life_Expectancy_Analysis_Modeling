@@ -1,0 +1,35 @@
+https://www.kaggle.com/code/harshini564/life-expectancy-cleaning-eda-feature-engineering
+Life Expectancy Cleaning,EDA,Feature Engineering 
+===
+plt.figure(figsize=(20,8))
+
+plt.subplot(1,3,1)
+plt.scatter(le["1"], le["2"])
+plt.title("1 vs 2")
+
+plt.subplot(1,3,2)
+plt.scatter(le["3"], le["4"])
+plt.title("3 vs 4")
+
+plt.subplot(1,3,3)
+plt.scatter(le["5"], le["6"])
+plt.title("5 vs 6")
+
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

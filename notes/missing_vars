@@ -1,0 +1,96 @@
+SEE: Patial Least Squarews
+https://www.statology.org/partial-least-squares/
+
+https://support.minitab.com/en-us/minitab/21/help-and-how-to/statistical-modeling/regression/supporting-topics/partial-least-squares-regression/what-is-partial-least-squares-regression/
+
+=====================
+Columns with Missing Values
+
+LOW Number Missing
+- Life Expect
+- Adult Mortality
+- BMI
+- Polio
+- Diptheria
+- Thin 1-19
+- Thin 5-9
+
+MED Number Missing
+- Alcohol 
+- Total Expenditure
+- Income
+- Education
+
+HIGH Number Missing
+- Hep B
+- GDP
+- Population
+
+
+Missing Country Info
+
+|              | Missing Column Data | Civil Unrest/War |
+|:-------------|--------------------:|-----------------:|
+| Côte d'Ivoire| | |
+| Congo| | |
+| Cuba| | |
+| Czechia| | |
+| Democratic People's Republic of Korea| | |
+| Democratic Republic of the Congo| | |
+| Egypt| | |
+| Eritrea| | |
+| Gambia| | |
+| Grenada| | |
+| Iran (Islamic Republic of)| | |
+| Kuwait| | |
+| Kyrgyzstan| | |
+| Libya| | |
+| Micronesia (Federated States of)| | |
+| New Zealand| | |
+| Oman| | |
+| Republic of Korea| | |
+| Republic of Moldova| | |
+| Saint Lucia| | |
+| Saint Vincent and the Grenadines| | |
+| Saudi Arabia| | |
+| Singapore| | |
+| Slovakia| | |
+| Somalia| | |
+| South Sudan|fghjlmnprstu | |
+| Sudan|rs | |
+| Syrian Arab Republic|gp | |
+| The former Yugoslav republic of Macedonia|gpq | |
+| United Arab Emirates|q | |
+| United Kingdom of Great Britain and Northern Ireland|pq | |
+| United Republic of Tanzania|pq | |
+| United States of America|pq | |
+| Venezuela (Bolivarian Republic of)|pq | |
+| Viet Nam | | |
+| Yemen | gpq | |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

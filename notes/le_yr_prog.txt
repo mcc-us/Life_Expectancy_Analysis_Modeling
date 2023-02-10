@@ -1,0 +1,35 @@
+Can you write a python program?
+This dataset has 193 countries and 21 features. It has data collected over 15 years.
+The dataset is located at https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who.
+I want a python program that uses groupby country then takes the linear regression of a feature. I want to know if the life expectancy is increasing or decreasing for a country over that 15 year period.
+
+
+import pandas as pd
+from sklearn.linear_model import LinearRegression
+
+# load the data
+data = pd.read_csv("https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who/life-expectancy-who.zip")
+
+# group the data by country
+grouped = data.groupby("Country")
+
+# loop through each group (i.e. country)
+for name, group in grouped:
+    # get the year and life expectancy values for this country
+    year = group["Year"].values.reshape(-1, 1)
+    life_expectancy = group["Life expectancy "].values.reshape(-1, 1)
+    
+    # fit a linear regression model
+    model = LinearRegression().fit(year, life_expectancy)
+    
+    # get the slope of the fitted line
+    slope = model.coef_[0][0]
+    
+    # check if the slope is positive (increasing) or negative (decreasing)
+    if slope > 0:
+        print(f"Life expectancy in {name} is increasing over the 15 year period.")
+    else:
+        print(f"Life expectancy in {name} is decreasing over the 15 year period.")
+
+---
+This program will print out a message indicating whether the life expectancy is increasing or decreasing for each country over the 15 year period.
