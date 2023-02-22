@@ -1,12 +1,9 @@
 Life_Expectancy_Analysis_Modeling_Using_WHO_UN_Data
 
-<center>
-
-  | ![WHO](/assets/blue-un-logo.png) | ![UN](/assets/who-logo.png) |
-  |:--------------------------------:|:---------------------------:|
-  |        World Health Organization |              United Nations |
-
-</center>
+<p align="center">
+  <img src="/assets/who-logo.png" width=120/><img src="/assets/blue-un-logo.png" width=120/>
+   United Nations & World Health Organization
+</p>
 
 ---
 
