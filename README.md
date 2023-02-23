@@ -8,8 +8,6 @@ Life_Expectancy_Analysis_Modeling_Using_WHO_UN_Data
 
 LINK TO NB
 
-**Problem Statement**
-
 This report investigates modifiable environmental factors that may contribute to life expectancy in the hopes of finding a mathematical model. Two questions are answered here: 
 
 1. *Which variables are significant in modeling and predicting Life Expectancy?*
