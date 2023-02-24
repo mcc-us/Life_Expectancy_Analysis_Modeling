@@ -1,0 +1,55 @@
+## todo
+
+
+Data Analysis Overview
+
+    Initial Data Analysis, NOTEBOOK #2
+    Exploratory Data Analysis, NOTEBOOK #3, NOTEBOOK #4
+    Feature Engineering, NOTEBOOK #5 (Change from 4 to 5)
+    Recursive Feature Elimination, NOTEBOOK #6 (Change from 4 to 6)
+    Modeling NOTEBOOK #6 (Change from 6 to 7)
+
+
+
+
+- where is data from and who is this for???? get var descriptions !!!!
+
+- todo change tittes to overview names! delete l.e. prefix
+- todo add `.ipynb_checkpoints` to gitignore
+- change to from 10 to 1, in ida
+   - Thin1_19y 	% Prevalence of thinness among children and adolescents 10 < Age < 19
+
+- ida : 'Drop 10 rows containing null in LifeExpectancy column' Move to note 1
+- ida simplify note 2 language
+- ida check fillna only # needed
+- ida 
+   - Understand nature of the data .info() .describe()
+    - Histograms and boxplots 
+    - Value counts 
+    - Missing data 
+
+
+EDA
+
+- describe multi-collinesrity in vars
+
+- check panads report for cat vars
+```
+for i in df_cat.columns:
+    sns.barplot(df_cat[i].value_counts().index,df_cat[i].value_counts()).set_title(i)
+    plt.show()
+```
+- # Show the description at each variable (in addition to the overview tab)
+show_variable_description: true????
+
+- compare cats by pivot table
+```
+# Comparing survival and each of these categorical variables 
+print(pd.pivot_table(training, index = 'Survived', columns = 'Pclass', values = 'Ticket' ,aggfunc ='count'))
+```
+
+
+
+
+
+
