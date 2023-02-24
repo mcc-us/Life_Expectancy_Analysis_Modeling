@@ -21,34 +21,19 @@ This report investigates modifiable environmental factors that may contribute to
 │   ├── 1_Generate_clean_data_1.CSV_FROM_Life_Expectancy_Data.csv.ipynb
 │   ├── 9_Produce_file_names_w_date_time_stamp.ipynb
 │   └── traces_chat_gpt.ipynb
-├── 1_main
-│   ├── 1_Life_Expectancy_WHO_UN_Analysis_Modeling_MAIN.ipynb
-│   ├── 1_MAIN_Life_Expectancy_WHO_UN_Analysis_Modeling.ipynb
-│   └── 1MAIN_Life_Expectancy_WHO_UN_Analysis_Modeling.ipynb
-├── 2_IDA
-│   ├── 1_WHO_Life_Expectancy_IDA_EDA beta.ipynb
-│   ├── AOK2_Life_Expectancy_IDA.ipynb
-│   ├── Excellent_2_Initial_Data_Analysis.ipynb
-│   ├── IDA w REORDER cols-Changed Config.Yml.ipynb
-│   └── IDA w REORDER cols.ipynb
 ├── 3_EDA
-│   ├── 3_Life_Expectancy_EDA_beta.ipynb
-│   ├── 3_Life_Expectancy_EDA.ipynb
-│   ├── 4_Life_Expectancy_EDA_PART2_beta.ipynb
-│   ├── 4_Life_Expectancy_Exploratory_Data_Analysis_PART2.ipynb
-│   ├── Excellent_2_Initial_Data_Analysis.ipynb
-│   ├── Excellent_eda.ipynb
-│   ├── EXCELLENT_What Exactly is Missing from Life Expectancy data.ipynb
-│   ├── LE_EDA_Violin_Plots.ipynb
-│   ├── Plotly_FACETING.ipynb
-│   ├── QQ Plots.ipynb
-│   └── Who_Notebook_No2_EDA.ipynb
+│   ├── 3_Life_Expectancy_Exploratory_Data_Analysis.ipynb
+│   ├── a_Life_Expectancy_Exploratory_Data_Analysis_PART2.ipynb
+│   ├── LE_by_country_and_3D_Seaborn_Plots .ipynb
+│   ├── NEED_LE_country_8regions.ipynb
+│   ├── NEED_Violin_Plots.ipynb
+│   ├── Seaborn_Graphics_Income_Education_age.ipynb
+│   ├── Seaborn_Plots .ipynb
+│   ├── WorkOnThis_Plotly_FACETING.ipynb
+│   └── WorkOnThis_QQ Plots.ipynb
 ├── 3_Pandas_profiling_eda
 │   ├── Life Expecteancy: IDA_EDA Report Using Pandas ProfilingBeta.html
 │   └── Test_Pandas_Profiling_Report.ipynb
-├── 4_Graphics
-│   ├── Good_Seaborn_Plots .ipynb
-│   └── Seaborn_Graphics_Income_Education_age.ipynb
 ├── 5_Feature_ENG
 │   ├── 4_Feature_Engineering-Copy1.ipynb
 │   ├── 5_Life_Expectancy_Feature_Engineering.ipynb
@@ -93,13 +78,12 @@ This report investigates modifiable environmental factors that may contribute to
 │   ├── Screenshot at 2023-02-01 10-12-34.png
 │   ├── test_age_avs_yearly_age_rate.png
 │   └── who-logo.png
-├── categorize_plots
-│   └── Good_Seaborn_Plots .ipynb
 ├── data
 │   ├── processed
 │   │   ├── clean_data_1.csv
 │   │   ├── Clean_LE_Data_FEng_3.csv
 │   │   ├── Clean_LE_Data_FEng_4.csv
+│   │   ├── Clean_LE_Data_Post_Correlation_Testing.csv
 │   │   ├── Clean_LE_Data_Post_EDA_2.csv
 │   │   ├── Clean_LE_Data_Post_EDA_3.csv
 │   │   ├── Clean_LE_Data_w_Means_1.csv
@@ -129,8 +113,19 @@ This report investigates modifiable environmental factors that may contribute to
 │   ├── REport_Section.odt
 │   ├── Test_Pandas_Profiling_Report.pdf
 │   └── updated-2016-data-tables_preventing_disease_deaths_dalys_pafs_sept_2019_rev.xlsx
+├── jupy_notebook_notes
+│   ├── Feature_table.ipynb
+│   ├── Initial_Data_Analysis_notes.ipynb
+│   └── Variable_table.ipynb
+├── notebooks
+│   ├── 1_MAIN_Life_Expectancy_WHO_UN_Analysis_Modeling.ipynb
+│   ├── 2_Initial_Data_Analysis.ipynb
+│   ├── Correlation_and_how_to_drop_highly_correlated_features.ipynb
+│   ├── Plotly_Life_Expectancy_183_countries .ipynb
+│   └── What exactly is missing from life expectancy data.ipynb
 ├── README.md
 └── requirements.txt
 
-18 directories, 97 files
+16 directories, 93 files
 ```
+
