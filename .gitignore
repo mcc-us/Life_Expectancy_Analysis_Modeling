@@ -2,6 +2,10 @@
 *.~lock.jan29.odp#
 *.odp#
 
+# Weird VSCode shite
+*-jvsc-*
+*.md~
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -30,9 +34,6 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-
-# VS Code misc
-*.md~
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
