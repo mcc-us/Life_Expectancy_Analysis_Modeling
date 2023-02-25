@@ -1,4 +1,4 @@
-Life_Expectancy_Analysis_Modeling_Using_WHO_UN_Data
+Life Expectancy Analysis Modeling Using WHO UN Data
 
 <p align="center">
   <img src="/assets/logo/who-logo.png" width=120/><img src="/assets/logo/un-logo.png" width=88/>
